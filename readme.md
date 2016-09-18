@@ -5,8 +5,9 @@
 需要安装Requests库、PrettyTable库以及命令行解析工具库Docopt。  
 这三个库均可以通过pip来安装。
 #2.使用说明
-Usage: python tickets.py [-gdtzk] <from> <to> <date>  
+Usage: python tickets.py [-gdtzk] (from) (to) (date)  
 其中，  
+[]为可选，()为必需项。  
 [-gdtzk]：对应高铁、动车、特快、直达、快速的filter。  
 from和to：分别为始发站和目的站的拼音名。  
 date格式：2016-10-02。
